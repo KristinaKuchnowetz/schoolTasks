@@ -1,0 +1,640 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	margin: 0;
+	font-family: 400 16px 'Raleway', 'Playfair Display', serif;
+}
+
+
+/*Начало первого блока*/
+
+.wrapper {
+	border-bottom: 1px solid #f3f3f3;
+	box-shadow: 0 0 10px rgba(0, 0, 1, 0.2);
+}
+
+
+.inner {
+	width: 1268px;
+	margin: 0 auto;
+	padding: 35px 0;
+}
+
+
+nav, .social, a {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.inner a {
+	text-decoration: none;
+}
+
+nav a  {
+	color: #3c3c3c;
+	font-size: 18px;
+	line-height: 30px;
+	margin-right: 40px;
+}
+
+
+nav a:last-child {
+	margin-right: 184px;
+}
+
+
+nav a:first-child {
+	margin-left: 184px;
+}
+
+
+.social a {
+	margin-right: 10px;
+}
+
+
+.social a:last-child {
+	margin-right: 0px;
+}
+
+
+/*Начало второго блока*/
+
+
+.about {
+	width: 1268px;
+	margin: 0 auto;
+	padding-top: 70px;
+	padding-bottom: 100px;
+}
+
+
+.about img {
+	float: left;
+	margin-right: 28px;
+}
+
+
+.about::before,
+.about::after {
+	content: '';
+	display: table;
+}
+
+
+.about::after {
+	clear: both;
+}
+
+
+.about a:first-child {
+	font-size: 14px;
+    line-height: 50px;
+	color: #e2574c;
+	text-decoration: none;
+}
+
+
+.about a:nth-child(2) {
+	color: #797979;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+
+.about a:nth-child(2)::before {
+	content: '->';
+}
+
+
+.about h1 {
+	color: #3c3c3c;
+	font-size: 45px;
+	line-height: 50px;
+	font-weight: 300;
+}
+
+
+.about p {
+	color: #797979;
+	line-height: 27px;
+}
+
+
+/*Начало третьего блока*/
+
+
+.kartinki {
+	background-color: #f6f6f6;
+}
+
+
+.tinki {
+	padding: 100px 0;
+	width: 1268px;
+	margin: 0 auto;
+}
+
+.earth, .photos, .briefcase, .file-drawer {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left:60px;
+	text-align: center;
+}
+
+
+/*Начало четвёртого блока*/
+
+
+.team {
+	padding: 100px 0;
+	width: 1268px;
+	margin: 0 auto;
+}
+
+
+.invite::before,
+.invite::after {
+	content: '';
+	display: table;
+}
+
+
+.invite::after {
+	clear: both;
+}
+
+
+.invite h3 {
+	float: left;
+	margin: 0 0 60px 0;
+	color: #242424;
+	font-size: 37px;
+	line-height: 65px;
+	font-weight: 300;
+}
+
+
+.invite a {
+	float: right;
+	color: #e2574c;
+	font-size: 20px;
+	line-height: 65px;
+}
+
+
+.workers > div {
+	display: inline-block;
+	vertical-align: center;
+	text-align: center;
+	border: 1px solid #e6e6e6;
+	margin-left: 28px;
+}
+
+
+.team h5 {
+	color: #000000;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 65px;
+	margin: 0;
+}
+
+
+.team h6 {
+	color: #797979;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 26px;
+	margin-top: 0;
+}
+
+
+
+/*Начало пятого блока*/
+
+
+.subscribe {
+	background-color: #f3f2f2;
+}
+
+
+.newsletter {
+	width: 1268px;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+
+
+.newsletter::before,
+.newsletter::after {
+	content: '';
+	display: table;
+}
+
+
+.newsletter::after {
+	clear: both;
+}
+
+
+.newsletter h2 {
+	float: left;
+	color: #3c3c3c;
+	font-size: 37px;
+	line-height: 50px;
+	font-weight: 300;
+	margin-top: 0;
+}
+
+
+.newsletter form {
+	float: right;	
+}
+
+
+.newsletter input {
+	width: 387px;
+	height: 58px;
+	border-radius: 3px;
+	border: 2px solid #e6e6e6;
+	color: #c2c1c1;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 60px;
+	padding-left: 10px;
+}
+
+
+
+.newsletter button {
+	width: 153px;
+	height: 58px;
+	border-radius: 3px;
+	background-color: #e2574c;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 60px;
+}
+
+/*начало шестого блока*/
+
+
+.leg {
+	background-color: #303030;
+}
+
+.foot {
+	width: 1268px;
+	padding: 80px 0;
+	margin: 0 auto;
+	color: #ffffff;
+}
+
+.leg .foot a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.logo img, .socialdva {
+	display: block;
+}
+
+
+.socialdva img {
+	display: inline;
+}
+
+
+.socialdva {
+	margin-top: 28px;
+}
+
+.logo,.navigation, .forclients, .contactus {
+	display: inline-block;
+	vertical-align: text-top;
+	text-align: center;
+	margin-right: 160px;
+}
+
+
+.contactus {
+	margin-right: 0px;
+}
+
+
+.logo {
+	margin-left: 60px;
+}
+
+
+.navigation a, .forclients a, .contactus a {
+	display: block;
+	margin-bottom: 10px;
+}
+
+
+/*Отзывчивый дизайн*/
+
+
+@media (max-width: 1331px) {
+	nav a:last-child {
+		margin-right: 102px;
+	}
+
+	nav a:first-child {
+		margin-left: 102px;
+	}
+
+	nav a  {
+		margin-right: 20px;
+	}
+
+	.social a {
+		margin-right: 5px;
+	}
+
+	.logo {
+		padding-left: 25px;
+	}
+
+	.inner, .about, .tinki, .invite, .workers, .newsletter {
+		margin: 0 5px 0 20px;
+	}
+
+	.workers > div {
+		margin-left: 10px;
+	}
+
+	.invite h3, .invite a {
+		float: none;
+		margin-bottom: 10px;
+	}
+
+	form, .invite a {
+		margin-right: 60px;
+	}
+
+	.about img {
+		float: none;
+		margin-top: 10px;
+	}
+
+	.about > div {
+		padding-right: 100px;
+	}
+
+	.newsletter form {
+		float: none;
+	}
+
+	.newsletter h2 {
+		margin-right: 40px;
+	}
+
+	.earth, .photos, .briefcase, .file-drawer {
+		margin-left:30px;
+	}
+}
+
+
+@media (max-width: 1187px) {
+
+/*	.ves {
+		background-color: grey;
+	}*/
+
+	nav a:last-child {
+		margin-right: 82px;
+	}
+
+
+	nav a:first-child {
+		margin-left: 82px;
+	}
+
+
+	nav a  {
+		margin-right: 10px;
+		font-size: 25px;
+	}
+
+	.social {
+		display: block;
+		margin-top: 15px;
+	}
+
+
+	.inner {
+	padding: 25px 0;
+	}
+ 	
+ 	.about {
+ 		width: 100%;
+ 	}
+
+ 	* {
+ 		font-size: 20px;
+ 	}
+
+ 	.about a {
+ 		font-size: 20px;
+ 	}
+
+
+ 	.logo,.navigation, .forclients, .contactus {
+		margin-right: 40px;
+		margin-left: 10px;
+	}
+
+	.workers> div {
+		margin-left: 2px; 
+	}
+
+
+	.workers>div:first-child {
+		margin-left: 0px;
+	}
+
+
+@media (max-width: 1110px) {
+
+/*.ves {
+		background-color: grey;
+	}*/
+
+	.workers >div:last-child, .file-drawer {
+		display: block;
+		margin-top: 15px;
+		width: 25%;
+	}
+
+
+	.workers >div {
+		margin-left: 8px;
+	}
+
+	.earth, .photos, .briefcase, .file-drawer {
+		margin-left:10px;
+	}
+}
+
+
+@media (max-width: 948px) {
+
+	.social, nav {
+		display: block;
+	}
+
+	nav a:first-child {
+		margin-left: 10px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+
+	.earth, .photos, .briefcase, .file-drawer {
+		display: block;
+		width: 65%;
+		margin-top: 10px;
+	}
+
+
+	.workers > div:nth-child(n-1) {
+		display: block;
+		width: 65%;
+		margin-top: 10px;
+	}
+
+
+	.newsletter form, .newsletter h2 {
+		float: none;
+	}
+
+
+	.foot > .logo {
+		display: none;
+	}
+
+	.navigation, .forclients, .contactus {
+		margin-left: 60px;
+		}
+}
+
+
+
+@media (max-width: 848px) {
+	.workers> div {
+		border: none;
+	}
+}
+
+
+@media (max-width: 762px) {
+	.tinki. .workers {
+		width: 100%;
+	}
+
+
+	.navigation, .forclients, .contactus {
+		margin-left: 20px;
+		}
+}
+
+
+@media (max-width: 635px) {
+	.navigation, .forclients, .contactus {
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+
+	.workers > div {
+		text-align: left;
+	}
+
+	.earth, .photos, .briefcase, .file-drawer {
+		text-align: left;
+	}
+
+
+	.newsletter input {
+		width: 200px;
+		height: 50px;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 40px;
+		padding-left: 10px;
+	}
+
+
+
+	.newsletter button {
+		width: 150px;
+		height: 50px;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 40px;
+	}
+}
+
+
+@media (max-width: 595px) {
+	.about img {
+		max-width: 85%;
+	}
+
+
+	nav a {
+		font-size: 18px;
+	}
+
+
+	.contactus, .navigation, .forclients {
+		display: block;
+		margin: 0 0 0 -960px;
+	}
+
+
+	.navigation {
+		margin-top: -60px;
+	}
+
+ 	.contactus h3, .navigation h3, .forclients h3 {
+ 		color: yellow;
+ 	}
+}
+
+@media (max-width: 420px) {
+
+	.inner, .tinki, .subscribe {
+		width: 100%;
+	}
+
+	.newsletter h2 {
+		font-size: 18px;
+	}
+
+
+	.newsletter input {
+		width: 150px;
+		height: 50px;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 40px;
+		padding-left: 10px;
+	}
+
+
+	.newsletter button {
+		width: 100px;
+		height: 50px;
+	}
+}
